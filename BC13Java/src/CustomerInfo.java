@@ -13,6 +13,5 @@ public class CustomerInfo {
 
     public static void testMethod(){
         System.out.println("150 раз тест");
-
     }
 }
