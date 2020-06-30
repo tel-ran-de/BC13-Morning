@@ -1,15 +1,9 @@
 public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
-        System.out.println("() {} [] /\\ '' \" ~ +-/* & ^ <> | ");
-        System.out.println(" Домашнее задание: научить пальчики вызывать различные смешные символы");
-        System.out.println();
-        customerInfo();
-        thankYou();
-    }
+
 
     public static void customerInfo() {
         System.out.println("С вас 3,60€!");
+        //
     }
 
     public static void thankYou() {
@@ -20,5 +14,15 @@ public class Main {
         System.out.print("ln = New Line");
         System.out.print("\n");
         System.out.print("\u0423\u0440\u0430 \n");
+
+    }
+
+    public static void main(String[] args) {
+        System.out.println("Hello World!");
+        System.out.println("() {} [] /\\ '' \" ~ +-/* & ^ <> | ");
+        System.out.println(" Домашнее задание: научить пальчики вызывать различные смешные символы");
+        System.out.println();
+        customerInfo();
+        thankYou();
     }
 }
