@@ -1,3 +1,5 @@
+package l4;
+
 public class HelloChar {
     public static void main(String[] args) {
         goodMorningChar();

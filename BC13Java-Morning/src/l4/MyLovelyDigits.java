@@ -1,3 +1,5 @@
+package l4;
+
 public class MyLovelyDigits {
     public static void main(String[] args) {
         myDouble();

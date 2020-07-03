@@ -1,3 +1,5 @@
+package l4;
+
 public class MyLovelyDouble {
     public static void main(String[] args) {
         double мояПерваяПеременная = 56.78; // десятичные дроби
