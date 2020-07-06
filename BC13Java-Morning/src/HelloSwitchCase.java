@@ -1,37 +1,48 @@
-import java.sql.SQLOutput;
-
 public class HelloSwitchCase {
     public static void main(String[] args) {
-        int customerValue = 1;
-        coffeeVending(customerValue);
+        int customerValue1 = 999;
+        int customerValue2 = 5;
+        int customerValue3 = 76;
+        String fromCoffeeVendingMachine = coffeeVending(customerValue1);
+        System.out.println(fromCoffeeVendingMachine);
+        split();
+        System.out.println(coffeeVending(customerValue2));
+        split();
+        System.out.println(coffeeVending(customerValue3));
     }
 
-    public static void coffeeVending(int customerValue) {
+    public static void split() {
+        System.out.println("------------------");
+    }
 
+    public static String coffeeVending(int customerValue) {
+        String result = "";
         switch (customerValue) {
-            case 1:
-                System.out.println("Кофе американо готовится");
+            case 41:
+                result = "Кофе американо готовится";
                 break;
-            case 2:
-                System.out.println("Кипяток сейчас будет");
+            case 42:
+                result = "Кипяток сейчас будет";
                 break;
-            case 3:
-                System.out.println("Кофе эспрессо готовится");
+            case 44:
+                result = "Кофе эспрессо готовится";
                 break;
-            case 4:
-                System.out.println("Какао уже в пути");
+            case 76:
+                result = "Какао уже в пути";
                 break;
-            case 5:
-                System.out.println("Вода кипятится");
-                System.out.println("Кофе мелется");
-                System.out.println("Сливки добавляются");
-                System.out.println("Настроение подымается");
+            case 58:
+                result = "Вода кипятится" + "\n"
+                        + "Кофе мелется" + "\n"
+                        + "Сливки добавляются" + "\n"
+                        + "Настроение подымается";
                 break;
             default:
-                System.out.println("Повторите пожалуйста свой выбор: "
-                        + customerValue + " временно недоступен");
+                result = "Повторите пожалуйста свой выбор: "
+                        + customerValue + " временно недоступен";
                 break;
         }
-        System.out.println("Программа приготовления кофе отработана без ошибок");
+        // System.out.println("Программа приготовления кофе отработана без ошибок");
+
+        return result;
     }
 }
