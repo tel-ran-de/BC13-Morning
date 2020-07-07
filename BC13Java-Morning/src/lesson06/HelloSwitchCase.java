@@ -1,3 +1,5 @@
+package lesson06;
+
 public class HelloSwitchCase {
     public static void main(String[] args) {
         int customerValue1 = 999;

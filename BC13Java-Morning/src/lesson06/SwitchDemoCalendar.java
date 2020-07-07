@@ -1,3 +1,4 @@
+package lesson06;
 
 public class SwitchDemoCalendar {
     public static void main(String[] args) {

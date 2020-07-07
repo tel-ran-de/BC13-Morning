@@ -1,3 +1,5 @@
+package lesson06;
+
 public class MyReview {
     // Найти соотношение площади Беларуси к площади Украины.
     // Belarus 207,595

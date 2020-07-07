@@ -1,3 +1,5 @@
+package lesson06;
+
 /**
  * BC13Java-Morning
  * 06 10 : 00
