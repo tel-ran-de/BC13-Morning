@@ -1,24 +1,39 @@
-/**
- * BC13Java-Morning
- * 07 12 : 07
- */
 public class CoffeeVending {
-    public static String coffeeSwitch(int customerValue) {
-        String result = "";
+    public static void main(String[] args) {
+        int customerChooseOne = 11;
+        int customerChooseTwo = 12;
+        int customerChooseThree = 1111;
+
+        coffeeSwitch(customerChooseOne);
+        split();
+        coffeeSwitch(customerChooseTwo);
+        split();
+        coffeeSwitch(customerChooseThree);
+        split();
+    }
+
+    public static void coffeeSwitch(int customerValue) {
+
         switch (customerValue) {
-            case 41:
+            case 11:
+                CoffeeRecipes.americano();
                 break;
-            case 42:
+            case 12:
+                CoffeeRecipes.cappuccino();
                 break;
-            case 44:
+            case 13:
+                CoffeeRecipes.latte();
                 break;
-            case 76:
-                break;
-            case 58:
+            case 14:
+                CoffeeRecipes.hotWatter();
                 break;
             default:
+                System.out.println("Извините временно недоступно");
                 break;
         }
-        return result;
+    }
+
+    public static void split() {
+        System.out.println("-------------");
     }
 }
