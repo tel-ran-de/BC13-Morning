@@ -1,3 +1,5 @@
+package lesson10;
+
 public class WarmUp {
     public static void main(String[] args) {
         System.out.println(missingChar("kitten", 1));//expecting "ktten"

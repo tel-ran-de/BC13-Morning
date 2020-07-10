@@ -1,3 +1,5 @@
+package lesson10;
+
 public class Work10 {
 
 

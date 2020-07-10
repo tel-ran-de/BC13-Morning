@@ -1,3 +1,5 @@
+package lesson10;
+
 public class Review {
     public static void main(String[] args) {
         int a = 5;
