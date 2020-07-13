@@ -1,37 +1,49 @@
 public class HelloFor {
     public static void main(String[] args) {
-        // helloFor();
-        myLittleFor();
+        //homeWork11();
+        //homeWork11_2(10, 5);
+        //homeWork11_3(5, 17);
+        //homeWork11_4();
+        homeWork11_5(10);
+
     }
 
-    public static void helloFor() {
-        for (double i = 30; i >= -10; i /= 3) {
-            System.out.println("И = " + i);
+    public static void homeWork11() {
+        for (int i = 0; i < 20; i *= 2) {
+            System.out.println(i);
+
+        }
+
+    }
+
+    public static void homeWork11_2(int a, int b) {
+        for (int i = 0; i < b; i++) {
+            System.out.println(a);
+
         }
     }
 
-    public static void myLittleFor() {
-        int a = 0;
-        int b = 0;
-        int i;
-        for (i = 0; i < 25; i++) {
-            a++;
+    public static void homeWork11_3(int a, int b) {
+        for (int i = a; i <= b; i++) {
+            System.out.println(i);
+
         }
-        System.out.println(a);
-        for ( ;i < 45; i++) {
-            b = 7;
-            a = a + b;
-            a++;
-        }
-        System.out.println(i);
-        System.out.println(b);
-        System.out.println(a);
     }
 
-            /*    for (начало; условие; шаг) {
-            // ... тело цикла ... в котором можно выполнять одну, две, три или даже очень много операций.
-                }
-            for (initialization condition; testing condition; increment/decrement){
-                    statement(s)}*/
+    public static void homeWork11_4() {
+        for (int i = 3; i < 10; i++) {
+            System.out.println(i);
+        }
+    }
 
+    public static void homeWork11_5(int line) {
+        String star = "*";
+        String output = "";
+        for (int i = 0; i < line; i++) {
+            output = output + star;
+            System.out.println(output);
+            //System.out.println(output += star);
+        }
+
+    }
 }
