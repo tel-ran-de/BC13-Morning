@@ -1,16 +1,5 @@
 public class Geometry {
-    /*
-     *
-     **
-     ***
-     ****
-     *****
-     ******
-     *******
-     ********
-     *********
-     **********
-     */
+
     public static void main(String[] args) {
         // first("*", 10);
         //second("*", 10);
