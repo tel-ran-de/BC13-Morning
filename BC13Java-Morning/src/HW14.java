@@ -8,9 +8,34 @@ public class HW14 {
         System.out.println(doubleChar("AAbb")); // → "AAAAbbbb"
         System.out.println(doubleChar("Hi-There")); //→ "HHii--TThheerree"*/
 
-        System.out.println(loneSum(1, 2, 3)); // → 6
+/*        System.out.println(loneSum(1, 2, 3)); // → 6
         System.out.println(loneSum(3, 2, 3)); //→ 2
-        System.out.println(loneSum(3, 3, 3)); //→ 0
+        System.out.println(loneSum(3, 3, 3)); //→ 0*/
+
+        System.out.println(sumDigit(12345)); // 6
+        System.out.println(sumDigit(768)); // 21
+    }
+
+    private static int sumDigit(int number) {
+        String input = String.valueOf(number);
+        int sum = 0;
+        int length = input.length();
+        for (int i = 0; i < length; i++) {
+            sum = sum + (number % 10);
+            number /= 10;
+        }
+        return sum;
+    }
+
+    private static int sumDigitString(int number) {
+        String input = String.valueOf(number);
+        int sum = 0;
+        for (int i = 0; i < input.length(); i++) {
+            String s = input.substring(i, i + 1);  // берёт один символ из инпута
+            int k = Integer.parseInt(s); // конвертирует символ в ИНТ
+            sum = sum + k;
+        }
+        return sum;
     }
 
     private static int loneSum(int a, int b, int c) {
