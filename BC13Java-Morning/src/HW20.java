@@ -12,7 +12,7 @@ public class HW20 {
     }
 
     public static int citiWeather(String city, String weekday) {
-        int degreeUp = 0;
+        int degreeUp = 8;
         switch (weekday) {
             case "Monday":
                 degreeUp = 0;
