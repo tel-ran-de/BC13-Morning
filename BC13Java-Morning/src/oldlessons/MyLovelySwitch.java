@@ -1,3 +1,5 @@
+package oldlessons;
+
 public class MyLovelySwitch {
     public static int citiWeather(String city, String weekday) {
         int degreeUp = 0;

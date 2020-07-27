@@ -1,3 +1,5 @@
+package oldlessons;
+
 public class HW20 {
     public static void main(String[] args) {
         System.out.println(citiWeather("Berlin", "Monday"));

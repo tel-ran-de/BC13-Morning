@@ -1,3 +1,5 @@
+package oldlessons;
+
 public class MyLovelyTernarOperator {
     public static void main(String[] args) {
         test1();

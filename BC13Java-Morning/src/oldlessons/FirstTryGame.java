@@ -1,3 +1,5 @@
+package oldlessons;
+
 import java.util.Scanner;
 
 public class FirstTryGame {
