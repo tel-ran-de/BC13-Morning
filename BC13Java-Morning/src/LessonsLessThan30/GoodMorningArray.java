@@ -1,3 +1,5 @@
+package LessonsLessThan30;
+
 public class GoodMorningArray {
     // Массивы, Feld, Array
     public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package LessonsLessThan30;
+
 public class StringArrayInit {
     public static void main(String[] args) {
         String[] str = new String[10];

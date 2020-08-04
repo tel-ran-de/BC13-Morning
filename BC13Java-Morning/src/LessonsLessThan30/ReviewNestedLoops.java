@@ -1,3 +1,5 @@
+package LessonsLessThan30;
+
 public class ReviewNestedLoops {
     public static void main(String[] args) {
         multiplicationsTable(10);

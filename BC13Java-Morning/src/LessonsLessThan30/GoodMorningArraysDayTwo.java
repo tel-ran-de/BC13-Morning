@@ -1,3 +1,4 @@
+package LessonsLessThan30;
 
 public class GoodMorningArraysDayTwo {
     public static void main(String[] args) {

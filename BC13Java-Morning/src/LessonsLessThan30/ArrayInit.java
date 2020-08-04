@@ -1,3 +1,5 @@
+package LessonsLessThan30;
+
 public class ArrayInit {
     public static void main(String[] args) {
         // Способ первый
