@@ -12,6 +12,7 @@ public class SimpleNewIntArray {
                 System.out.print(element + " ");
             }
             System.out.println();
+
         }
     }
 }
