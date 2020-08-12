@@ -35,12 +35,13 @@ public class GameMiner {
         for (int i = 0; i < bombCount; i++) {
             int random1 = myMathRandom(myField.length);
             int random2 = myMathRandom(myField.length);
-            //myField[random1][random2] = true;
-            while (!myField[random1][random2]) {
+            // мы должны поставить бомбу на элемент который был фолс
+            // значит мы проверяем, а не тру ли элемент.
+            while (myField[random1][random2]) {
                 random1 = myMathRandom(myField.length);
                 random2 = myMathRandom(myField.length);
-                myField[random1][random2] = true;
             }
+            myField[random1][random2] = true;  // инициализация элемента бомбой должна проходить вне цикла
         }
         return myField;
     }
