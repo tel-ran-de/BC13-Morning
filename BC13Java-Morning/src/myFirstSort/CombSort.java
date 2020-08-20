@@ -10,7 +10,7 @@ public class CombSort {
     }
 
     public static int[] comb(int[] array) {
-        double stepConstant = 1.24733095;
+        final double stepConstant = 1.24733095;
         int step = array.length;
         while (step > 1) {
             step = (int) (step / stepConstant);
