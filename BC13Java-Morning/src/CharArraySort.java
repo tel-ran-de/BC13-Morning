@@ -1,5 +1,3 @@
-package arraySort;
-
 import java.util.Arrays;
 
 public class CharArraySort {
