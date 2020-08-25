@@ -9,4 +9,4 @@ How to do a pull request
 8. on github open your forked repo
 9. go to pull request
 10. check correct branch
-11. pull
+11. pull 
