@@ -1,6 +1,4 @@
 /out/*
 /.idea/
 *.iml
-
-
-git status
+.DS_Store
