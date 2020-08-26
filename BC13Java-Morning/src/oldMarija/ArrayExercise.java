@@ -1,3 +1,5 @@
+package oldMarija;
+
 public class ArrayExercise {
     public static void main(String[] args) {
         //1. Make variable Span

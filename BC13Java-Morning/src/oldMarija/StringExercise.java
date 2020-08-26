@@ -1,3 +1,5 @@
+package oldMarija;
+
 public class StringExercise {
     public static void main(String[] args) {
         System.out.println(xyzMiddle("AAxyzBB"));// → true
