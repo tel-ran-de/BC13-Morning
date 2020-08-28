@@ -1,6 +1,6 @@
-import java.util.Arrays;
+package hwInna49;
 
-public class HW49 {
+public class HomeWork49 {
     public static void main(String[] args) {
         int[] a1 = new int[]{1, 2, 11};
         int[] a2 = new int[]{11, 11};

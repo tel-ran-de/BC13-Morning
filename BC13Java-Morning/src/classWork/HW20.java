@@ -1,3 +1,5 @@
+package classWork;
+
 public class HW20 {
     public static void main(String[] args) {
         System.out.println(citiWeather("Berlin", "Monday"));
@@ -7,7 +9,6 @@ public class HW20 {
         System.out.println(citiWeather("Moscow", "Friday"));
         System.out.println(citiWeather("Minsk", "Saturday"));
         System.out.println(citiWeather("Saratov", "Sunday"));
-
 
     }
 
