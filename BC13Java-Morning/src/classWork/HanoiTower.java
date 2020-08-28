@@ -1,3 +1,5 @@
+package classWork;
+
 import java.util.Arrays;
 
 public class HanoiTower {

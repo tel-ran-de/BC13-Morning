@@ -1,3 +1,5 @@
+package hwDina49;
+
 public class HomeWork49 {
     public static void main(String[] args) {
         /*Учитывая массив ints, вычислите рекурсивно количество раз,
