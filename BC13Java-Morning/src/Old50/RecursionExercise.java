@@ -1,3 +1,5 @@
+package Old50;
+
 public class RecursionExercise {
     public static void main(String[] args) {
        /* System.out.println(endX("xxre"));// → "rexx"
