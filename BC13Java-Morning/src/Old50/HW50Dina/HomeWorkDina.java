@@ -1,4 +1,4 @@
-package HW50Dina;
+package Old50.HW50Dina;
 
 public class HomeWorkDina {
     public static void main(String[] args) {
