@@ -1,4 +1,4 @@
-public class RecursionExercise {
+public class RecursionExerciseProblem {
     public static void main(String[] args) {
         System.out.println(endX("xxre"));// → "rexx"
         System.out.println(endX("xxhixx"));// → "hixxxx"
